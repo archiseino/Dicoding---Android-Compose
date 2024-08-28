@@ -70,7 +70,7 @@ fun HelloJetpackComposeApp() {
         modifier = Modifier.fillMaxSize(),
         color = MaterialTheme.colorScheme.background
     ) {
-        GreetingList(sampleName)
+        GreetingList(emptyList())
     }
 }
 
